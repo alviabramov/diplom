@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ContentController!{% endblock %}
+
+{% block body %}
+    <div class="container nav-wrapper">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="news-tab" data-toggle="tab" href="#news" role="tab" aria-controls="news" aria-selected="true">НОВОСТИ</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="moscow-tab" data-toggle="tab" href="#moscow" role="tab" aria-controls="moscow" aria-selected="false">МОСКВА</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="sport-tab" data-toggle="tab" href="#sport" role="tab" aria-controls="sport" aria-selected="false">СПОРТ</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="auto-tab" data-toggle="tab" href="#auto" role="tab" aria-controls="auto" aria-selected="false">АВТО</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="tech-tab" data-toggle="tab" href="#tech" role="tab" aria-controls="tech" aria-selected="false">Hi-TECH</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="news" role="tabpanel" aria-labelledby="home-tab"> NNNN Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa, delectus dolore dolorum eligendi eveniet facilis ipsa laborum, nulla, perspiciatis porro quos ullam unde veritatis voluptatem! Eos molestias obcaecati quasi?</div>
+            <div class="tab-pane fade" id="moscow" role="tabpanel" aria-labelledby="moscow-tab">MMM Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi dolores facere magnam praesentium voluptatum! Atque aut beatae cumque eligendi esse incidunt iure nesciunt ratione repellendus voluptate! Aliquam, aliquid, consequatur?</div>
+            <div class="tab-pane fade" id="sport" role="tabpanel" aria-labelledby="sport-tab">SSS Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam, amet aperiam assumenda at consectetur corporis dicta, dolorum ea ex illum officia quaerat quisquam reiciendis sit soluta unde veritatis vitae!</div>
+            <div class="tab-pane fade" id="auto" role="tabpanel" aria-labelledby="auto-tab">AAA Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto cupiditate dicta dolores eum expedita id laudantium, nemo nihil nobis optio possimus quaerat quas quo ratione sed velit. Possimus, quo?</div>
+            <div class="tab-pane fade" id="tech" role="tabpanel" aria-labelledby="tech-tab">TTT Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi asperiores distinctio ea hic illo, laudantium modi molestias nihil, nostrum possimus quia quibusdam quos reprehenderit rerum sint suscipit tempora ullam.</div>
+        </div>
+    </div>
+
+
+{% endblock %}

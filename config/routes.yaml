@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+content:
+  path: /content
+  controller: App\Controller\ContentController::show
