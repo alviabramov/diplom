@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Storage;
-use App\Entity\Content;
+namespace App\ContentBundle\Storage;
 
+use App\Entity\Content;
 
 class HardStorage
 {

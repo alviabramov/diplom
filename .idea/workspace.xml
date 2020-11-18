@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bab944fc-2889-48e4-a8f3-afde78c61a74" name="Default Changelist" comment="" />
+    <list default="true" id="bab944fc-2889-48e4-a8f3-afde78c61a74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContentBundle/ContentBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContentBundle/DependencyInjection/ContentExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContentBundle/Resources/config/auto/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContentBundle/Resources/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ContentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContentBundle/Controller/ContentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Storage/HardStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContentBundle/Storage/HardStorage.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +45,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -124,6 +155,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1k9fbbxA4fwMkFJWMwRQKULi32a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -132,10 +164,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ContentBundle" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ContentBundle" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ContentBundle" />
+      <recent name="$PROJECT_DIR$/src/ContentBundle/Controller" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -163,35 +204,44 @@
       <workItem from="1605556431093" duration="767000" />
       <workItem from="1605557440975" duration="291000" />
       <workItem from="1605628930972" duration="698000" />
+      <workItem from="1605726228627" duration="1972000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="802" y="270" key="NewPhpClassDialog" timestamp="1605288123139">
       <screen x="0" y="23" width="1920" height="1014" />
     </state>
     <state x="802" y="270" key="NewPhpClassDialog/0.23.1920.1014@0.23.1920.1014" timestamp="1605288123139" />
+    <state x="943" y="361" key="NewPhpFileDialog" timestamp="1605727290938">
+      <screen x="0" y="23" width="1920" height="1014" />
+    </state>
+    <state x="943" y="361" key="NewPhpFileDialog/0.23.1920.1014@0.23.1920.1014" timestamp="1605727290938" />
     <state x="295" y="107" key="SettingsEditor" timestamp="1605551715241">
       <screen x="0" y="23" width="1920" height="1014" />
     </state>
     <state x="295" y="107" key="SettingsEditor/0.23.1920.1014@0.23.1920.1014" timestamp="1605551715241" />
+    <state x="729" y="23" key="Vcs.Push.Dialog.v2" timestamp="1605726577058">
+      <screen x="0" y="23" width="1920" height="1014" />
+    </state>
+    <state x="729" y="23" key="Vcs.Push.Dialog.v2/0.23.1920.1014@0.23.1920.1014" timestamp="1605726577058" />
     <state x="603" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1605122322042">
       <screen x="0" y="23" width="1920" height="1014" />
     </state>
     <state x="603" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1920.1014@0.23.1920.1014" timestamp="1605122322042" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/Controller/ContentController.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

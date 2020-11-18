@@ -1,0 +1,6 @@
+login:
+  path: /
+  defaults:
+    _controller: content.controller.index:show
+  methods:
+    - POST

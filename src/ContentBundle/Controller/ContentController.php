@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Controller;
+namespace App\ContentBundle\Controller;
 
-use App\Storage\HardStorage;
+use App\ContentBundle\Storage\HardStorage;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
