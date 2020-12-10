@@ -3,4 +3,4 @@ login:
   defaults:
     _controller: content.controller.index:show
   methods:
-    - POST
+    - GET

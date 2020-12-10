@@ -1,0 +1,1 @@
+10 * * * * bin/console data:load-data

@@ -1,27 +1,14 @@
 services:
   content.controller.index:
-    class: App\LoginBundle\Controller\ContentController
+    class: App\ContentBundle\Controller\ContentController
     public: true
     arguments:
-# Здесь я должен передать наименование переменных (данных) из HardStorage?
-      - '@login.transformer.login'
-      - '@login.storage.user'
+      - '@content.storage.fake'
     calls:
       - [setContainer, ['@Psr\Container\ContainerInterface']]
 
-#Нужно ли вообще реализовывать трансформер?
-  login.transformer.login:
-    class: App\LoginBundle\DTO\Transformer\Login
-    arguments:
-      - '@validator'
-
-  login.storage.user:
-    class: App\LoginBundle\Storage\Storage
-    arguments:
-      - '@login.repository.entity_manager.user'
-
-  login.repository.entity_manager.user:
-    class: App\Repository\UserRepository
+  content.storage.fake:
+    class: App\ContentBundle\Storage\HardStorage
     arguments:
       - '@doctrine'
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Repository;
+namespace App\Common\Repository;
 
-use App\Entity\Content;
+use App\Common\Entity\Content;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
@@ -17,6 +17,28 @@ class ContentRepository extends ServiceEntityRepository
     public function __construct(ManagerRegistry $registry)
     {
         parent::__construct($registry, Content::class);
+    }
+
+    /**
+     * @param $category
+     * @return array
+     * @throws \Doctrine\DBAL\Driver\Exception
+     * @throws \Doctrine\DBAL\Exception
+     */
+    public function findAllCategory ($category):array
+    {
+        $conn = $this->getEntityManager()->getConnection();
+        $sql = '
+        SELECT * FROM content c
+        WHERE c.category = :category
+        ORDER BY c.pub_date DESC
+        LIMIT 7  
+        ';
+
+        $stmt = $conn->prepare($sql);
+        $stmt->execute(['category' => $category]);
+
+        return $stmt->fetchAllAssociative();
     }
 
     // /**

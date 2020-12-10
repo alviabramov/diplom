@@ -2,16 +2,20 @@
 
 namespace App\ContentBundle\Storage;
 
-use App\Entity\Content;
+use App\Common\Entity\Content;
+use App\Common\Entity\EntityInterface;
 
-class HardStorage
+class HardStorage implements StorageInterface
 {
-    public function findEntity()
+
+    public function findEntityByType(): array
     {
-        return (new Content())
-            ->setCategory('news')
+        return [(new Content())
+            ->setIdNews('--c8df96f40408f6ca138895c05550cfbe')
+            ->setCategory('sport')
             ->setTitle('Title news1')
-            ->setSubtitle('Subtitle news2')
-            ->setContent('Content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur consectetur, consequuntur cumque deleniti ducimus et excepturi explicabo facilis illum incidunt, laboriosam necessitatibus possimus sapiente, sequi! Autem ducimus quo rem.');
+            ->setDescription('Description news2')
+            ->setLink('link')
+            ->setPubDate('date')];
     }
 }
