@@ -1,1 +1,1 @@
-10 * * * * bin/console data:load-data
+*/5 * * * * bin/console data:load-data

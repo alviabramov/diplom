@@ -20,35 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bab944fc-2889-48e4-a8f3-afde78c61a74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.deploy/docker/cron/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.deploy/docker/cron/entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/LoadDataCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/Entity/EntityInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContentBundle/Storage/StorageInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.deploy/docker/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/.deploy/docker/backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cron" beforeDir="false" afterPath="$PROJECT_DIR$/.cron" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes/annotations.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes/dev/framework.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContentBundle/Controller/ContentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContentBundle/Controller/ContentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContentBundle/Resources/config/auto/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContentBundle/Resources/config/auto/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContentBundle/Resources/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContentBundle/Resources/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContentBundle/Storage/HardStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContentBundle/Storage/HardStorage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.cron" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/Entity/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Content.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/Entity/Content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/Repository/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ContentRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/Repository/ContentRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/content/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/content/index.html.twig" afterDir="false" />
     </list>
@@ -249,7 +224,7 @@
       <workItem from="1607164994352" duration="1590000" />
       <workItem from="1607256551085" duration="721000" />
       <workItem from="1607545188312" duration="164000" />
-      <workItem from="1607616929157" duration="8159000" />
+      <workItem from="1607616929157" duration="9642000" />
     </task>
     <servers />
   </component>

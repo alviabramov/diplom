@@ -10,3 +10,10 @@ body {
     font-weight: bold;
     font-size: 1.5rem;
 }
+
+.fut{
+    margin: 15px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.7rem;
+}
