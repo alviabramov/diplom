@@ -105,7 +105,7 @@ class __TwigTemplate_51eb0454bf15a10e4fa6bbf1011e47235a9474ce571b836bfddfbfad1fa
             echo "</h5>
                             <p class=\"card-text\">";
             // line 31
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "description", [], "any", false, false, false, 31), "html", null, true);
+            echo twig_get_attribute($this->env, $this->source, $context["item"], "description", [], "any", false, false, false, 31);
             echo "</p>
                             <a href=\"";
             // line 32
@@ -136,7 +136,7 @@ class __TwigTemplate_51eb0454bf15a10e4fa6bbf1011e47235a9474ce571b836bfddfbfad1fa
             echo "</h5>
                             <p class=\"card-text\">";
             // line 43
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "description", [], "any", false, false, false, 43), "html", null, true);
+            echo twig_get_attribute($this->env, $this->source, $context["item"], "description", [], "any", false, false, false, 43);
             echo "</p>
                             <a href=\"";
             // line 44
@@ -167,7 +167,7 @@ class __TwigTemplate_51eb0454bf15a10e4fa6bbf1011e47235a9474ce571b836bfddfbfad1fa
             echo "</h5>
                             <p class=\"card-text\">";
             // line 55
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "description", [], "any", false, false, false, 55), "html", null, true);
+            echo twig_get_attribute($this->env, $this->source, $context["item"], "description", [], "any", false, false, false, 55);
             echo "</p>
                             <a href=\"";
             // line 56
@@ -198,7 +198,7 @@ class __TwigTemplate_51eb0454bf15a10e4fa6bbf1011e47235a9474ce571b836bfddfbfad1fa
             echo "</h5>
                             <p class=\"card-text\">";
             // line 67
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "description", [], "any", false, false, false, 67), "html", null, true);
+            echo twig_get_attribute($this->env, $this->source, $context["item"], "description", [], "any", false, false, false, 67);
             echo "</p>
                             <a href=\"";
             // line 68
@@ -229,7 +229,7 @@ class __TwigTemplate_51eb0454bf15a10e4fa6bbf1011e47235a9474ce571b836bfddfbfad1fa
             echo "</h5>
                             <p class=\"card-text\">";
             // line 79
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "description", [], "any", false, false, false, 79), "html", null, true);
+            echo twig_get_attribute($this->env, $this->source, $context["item"], "description", [], "any", false, false, false, 79);
             echo "</p>
                             <a href=\"";
             // line 80
@@ -301,7 +301,7 @@ class __TwigTemplate_51eb0454bf15a10e4fa6bbf1011e47235a9474ce571b836bfddfbfad1fa
                     <div class=\"card\">
                         <div class=\"card-body\">
                             <h5 class=\"card-title\">{{item.title}}</h5>
-                            <p class=\"card-text\">{{ item.description }}</p>
+                            <p class=\"card-text\">{{ item.description|raw}}</p>
                             <a href=\"{{ item.link }}\" class=\"card-link\">Подробнее</a>
                         </div>
                     </div>
@@ -313,7 +313,7 @@ class __TwigTemplate_51eb0454bf15a10e4fa6bbf1011e47235a9474ce571b836bfddfbfad1fa
                     <div class=\"card\">
                         <div class=\"card-body\">
                             <h5 class=\"card-title\">{{item.title}}</h5>
-                            <p class=\"card-text\">{{ item.description }}</p>
+                            <p class=\"card-text\">{{ item.description|raw}}</p>
                             <a href=\"{{ item.link }}\" class=\"card-link\">Подробнее</a>
                         </div>
                     </div>
@@ -325,7 +325,7 @@ class __TwigTemplate_51eb0454bf15a10e4fa6bbf1011e47235a9474ce571b836bfddfbfad1fa
                     <div class=\"card\">
                         <div class=\"card-body\">
                             <h5 class=\"card-title\">{{item.title}}</h5>
-                            <p class=\"card-text\">{{ item.description }}</p>
+                            <p class=\"card-text\">{{ item.description|raw }}</p>
                             <a href=\"{{ item.link }}\" class=\"card-link\">Подробнее</a>
                         </div>
                     </div>
@@ -337,7 +337,7 @@ class __TwigTemplate_51eb0454bf15a10e4fa6bbf1011e47235a9474ce571b836bfddfbfad1fa
                     <div class=\"card\">
                         <div class=\"card-body\">
                             <h5 class=\"card-title\">{{item.title}}</h5>
-                            <p class=\"card-text\">{{ item.description }}</p>
+                            <p class=\"card-text\">{{ item.description|raw }}</p>
                             <a href=\"{{ item.link }}\" class=\"card-link\">Подробнее</a>
                         </div>
                     </div>
@@ -349,7 +349,7 @@ class __TwigTemplate_51eb0454bf15a10e4fa6bbf1011e47235a9474ce571b836bfddfbfad1fa
                     <div class=\"card\">
                         <div class=\"card-body\">
                             <h5 class=\"card-title\">{{item.title}}</h5>
-                            <p class=\"card-text\">{{ item.description }}</p>
+                            <p class=\"card-text\">{{ item.description|raw }}</p>
                             <a href=\"{{ item.link }}\" class=\"card-link\">Подробнее</a>
                         </div>
                     </div>

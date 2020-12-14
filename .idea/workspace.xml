@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bab944fc-2889-48e4-a8f3-afde78c61a74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cron" beforeDir="false" afterPath="$PROJECT_DIR$/.cron" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/content/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/content/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/b2/b2476ade0b0ca3746f482f43c080b3aad67eb13d73ffe6c67564400ed7a344a2.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/b2/b2476ade0b0ca3746f482f43c080b3aad67eb13d73ffe6c67564400ed7a344a2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/log/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/log/dev.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,6 +223,9 @@
       <workItem from="1607256551085" duration="721000" />
       <workItem from="1607545188312" duration="164000" />
       <workItem from="1607616929157" duration="9642000" />
+      <workItem from="1607714893531" duration="513000" />
+      <workItem from="1607761411613" duration="52000" />
+      <workItem from="1607968568142" duration="419000" />
     </task>
     <servers />
   </component>
